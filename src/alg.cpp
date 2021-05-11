@@ -45,7 +45,7 @@ std::string infx2pstfx(std::string inf) {
 
 int eval(std::string pst) {
   std::string tstr;
-  TStack<int> stack; 
+  TStack<int> stack;
   for (int i = 0; i < pst.length(); i++) {
     if (pst[i] >= '0' && pst[i] <= '9') {
       tstr = pst[i];
