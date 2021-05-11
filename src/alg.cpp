@@ -4,7 +4,7 @@
 #include "tstack.h"
 
 std::string infx2pstfx(std::string inf) {
-   std::string tstr;
+  std::string tstr;
   std::string str;
   std::map<char, int>mp = { {'*', 3}, {'/', 3}, {'+', 2}, {'-', 2}, {'(', 1} };
 
